@@ -1,0 +1,45 @@
+.hero {
+  background: radial-gradient(var(--radial-gradient));
+}
+
+.hero__content {
+  padding: 129px 0;
+  z-index: 100;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 29px;
+  z-index: 100;
+  word-wrap: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: var(--color-white);
+}
+
+.hero__descr {
+  margin: 0;
+  margin-bottom: 61px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-white);
+}
+
+.hero__btn {
+  padding: 24px 76px;
+  font-size: 18px;
+}
+
+.hero__right {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.hero__bg-img {
+  width: 100%;
+  height: auto;
+}

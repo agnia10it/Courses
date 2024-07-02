@@ -1,0 +1,31 @@
+.footer {
+  padding-top: 28px;
+  background-color: var(--color-footer);
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 23px;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  padding: 4px 0;
+  background-color: var(--color-white);
+}
+
+.footer__copy {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--color-footer);
+}
+
+.reg {
+  color: var(--color-blue);
+}

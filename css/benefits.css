@@ -1,0 +1,38 @@
+.benefits {
+  padding-top: 80px;
+  padding-bottom: 55px;
+}
+
+.benefits__img {
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.benefits__title {
+  margin-bottom: 17px;
+  max-width: 400px;
+  color: var(--color-footer);
+}
+
+.benefits__text {
+  padding: 35px 0;
+  padding-left: 109px;
+  font-weight: 700;
+  line-height: 120%;
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  background-position: 0 22px;
+}
+
+.benefits__text_eye {
+  background-image: url("../img/benefits-eye.svg");
+}
+
+.benefits__text_hand {
+  background-image: url("../img/benefits-hand.svg");
+}
+
+.benefits__text_horn {
+  background-image: url("../img/benefits-horn.svg");
+}

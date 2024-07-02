@@ -1,0 +1,26 @@
+.header {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.header__container {
+  padding: 28px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  justify-items: flex-end;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 56px;
+}
+
+.nav__link {
+  max-width: 250px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+}
